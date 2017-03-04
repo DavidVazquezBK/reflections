@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Viendo las diferencias en los resumenes que aparecian en la consola, se ven muy fácilmente y se identifica un error conociendolos.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Conoces la forma en la que evoluciona tu código, como haz mejorado y te ayuda a ver si escribes código limpio.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Ventajas:
+	-Llevas un orden en cuanto a los cambios que consideras mas importantes y cuando es el momento para actualizar el proyecto.
+	-Es más fácil entender lo que se hizo en las demás versiones con un diff
+
+	Desventajas:
+	-No se guarda toda la información automaticamente
+	-Se va la luz y ya valió
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Para mantener un solo commit con la misma fecha todos los archivos y asi ordenar por fecha y por actualizaciones lógicas
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Puedo ponerlos en el Bash de Git para que me muestre como ha evolucionado un archivo y si quiero comparar algunos commit solo pongo el comando >git diff <idCommit1> <idCommit2> puedo poner solo los 4 primeros caracteres del id
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Tienes una visión ordenada de como estás haciendo las cosas y es mas fácil regresar a una versión anterior y así, probar nuevas alternativas sin temor a que los errores sean irreparables, ya que no lo son.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Me gustaría usar Git para cualquier proyecto que requiera tener multiples archivos sincronizados y que tengan relaciones necesarias entre ellos. Claro que su aplciación mas importante es en la programación y desarrollo de software, pero le veo un gran potencial en cualquier otro proyecto como desarrollar los documentos de una empresa.
