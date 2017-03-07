@@ -1,15 +1,27 @@
-What happens when you initialize a repository? Why do you need to do it?
+﻿What happens when you initialize a repository? Why do you need to do it?
+
+	Se crea la cofiguración para la sincronizacion de la carpeta, necesito hacerlo para indicarle a Git que ese directorio es el del 	nuevo proyecto en el que se trabajará.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+	En ella se preparan los archivos que serán puestos en el siguiente commit, creo que solo se usa en el primero.
+	Es útil ya que es lo que se trabajará en el repositorio	
+
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	Lo puedo usar con el comando diff, para ver los cambiios en el directorio y la staging area, y git diff --staged para verlos en la 	staging area y en el commit mas reciente.
+	Te ayuda a ser ordenado y a estar seguro de lo que habrá en el próximo commit, mostrando un resumen de todo lo que estás a punto de 	subir al nuevo commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Ayudarían si quiero agregar alguna característica experimental al software nueva, o ala documentación. Las branches me ayudan a 	dividir mi proyecto en varias versiones
+
 How do the diagrams help you visualize the branch structure?
+
+	Ayudan a ver de forma mas sencilla todos los commits que se han creado en las diferentes versiones del proyecto (branches) de una forma gráfica más sencilla de entender.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
