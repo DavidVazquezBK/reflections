@@ -1,0 +1,1 @@
+Aqui vemos que este archivo lo creé en GitHub y se obtuvo con el comando pull a un repositorio local
